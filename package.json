@@ -10,7 +10,6 @@
   "dependencies": {
     "@types/i18next": "^13.0.0",
     "@types/node": "^20.8.6",
-    "i18next": "^23.5.1",
-    "i18next-resources-for-ts": "^1.3.3"
+    "i18next": "^23.5.1"
   }
 }
