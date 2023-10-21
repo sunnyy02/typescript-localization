@@ -7,5 +7,5 @@ const welcomeMessage = i18next.t('common:welcome', { name: 'John' });
 
 //const incorrectKey = i18next.t('common:welcomeNotExist');
 
-console.log('commo:greeting:', greetingMessage);
-console.log('commo:welcome:', welcomeMessage);
+console.log('greeting:', greetingMessage);
+console.log('welcome:', welcomeMessage);
