@@ -1,6 +1,6 @@
 import i18next from 'i18next';
-import * as enCommon from './locales/en/common.json';
-import * as esCommon from './locales/es/common.json';
+import  {esCommon} from './locales/es/common';
+import { common } from './locales/en/common';
 
 export const defaultNS = 'common';
 
@@ -10,7 +10,7 @@ i18next.init({
   debug: true, // Enable debug mode (optional)
   resources: {
     en: {
-      common: enCommon,
+      common: common,
     },
     es: {
       common: esCommon,
