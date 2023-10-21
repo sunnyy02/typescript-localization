@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "npm run build & node dist/index.js ",
-  "type": "module"
+    "start": "npm run build & node dist/index.js "
   },
   "dependencies": {
     "@types/i18next": "^13.0.0",
